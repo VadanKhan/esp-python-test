@@ -1,0 +1,62 @@
+
+>>> import os
+>>> import adc
+>>> adc.main("sin7.csv", 0.5, 1, 99999)
+ADC Read: 288 us, Voltage Conversion: 113 us, Data Append: 1097 us, File Write:                                           87 us, Sleep: 29 us
+ADC Read: 202 us, Voltage Conversion: 105 us, Data Append: 1070 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 203 us, Voltage Conversion: 106 us, Data Append: 1079 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 107 us, Data Append: 1047 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 203 us, Voltage Conversion: 105 us, Data Append: 1054 us, File Write:                                           58 us, Sleep: 26 us
+ADC Read: 202 us, Voltage Conversion: 105 us, Data Append: 1042 us, File Write:                                           59 us, Sleep: 26 us
+ADC Read: 203 us, Voltage Conversion: 105 us, Data Append: 1041 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 107 us, Data Append: 1054 us, File Write:                                           59 us, Sleep: 26 us
+ADC Read: 201 us, Voltage Conversion: 107 us, Data Append: 1060 us, File Write:                                           57 us, Sleep: 26 us
+ADC Read: 202 us, Voltage Conversion: 109 us, Data Append: 1044 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 203 us, Voltage Conversion: 106 us, Data Append: 1050 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1052 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 203 us, Voltage Conversion: 107 us, Data Append: 1046 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 107 us, Data Append: 1046 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 203 us, Voltage Conversion: 105 us, Data Append: 1049 us, File Write:                                           59 us, Sleep: 26 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1051 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 281 us, Voltage Conversion: 106 us, Data Append: 1069 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1051 us, File Write:                                           59 us, Sleep: 26 us
+ADC Read: 203 us, Voltage Conversion: 248 us, Data Append: 1074 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1081 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 203 us, Voltage Conversion: 107 us, Data Append: 1060 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 107 us, Data Append: 1045 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1062 us, File Write:                                           58 us, Sleep: 26 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1081 us, File Write:                                           59 us, Sleep: 26 us
+ADC Read: 201 us, Voltage Conversion: 109 us, Data Append: 1203 us, File Write:                                           60 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1044 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 312 us, Voltage Conversion: 105 us, Data Append: 1055 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1055 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 203 us, Voltage Conversion: 107 us, Data Append: 1050 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 107 us, Data Append: 1044 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 203 us, Voltage Conversion: 106 us, Data Append: 1084 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1051 us, File Write:                                           59 us, Sleep: 26 us
+ADC Read: 203 us, Voltage Conversion: 216 us, Data Append: 1071 us, File Write:                                           57 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1079 us, File Write:                                           59 us, Sleep: 26 us
+ADC Read: 201 us, Voltage Conversion: 108 us, Data Append: 1214 us, File Write:                                           60 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1084 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 107 us, Data Append: 1047 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 201 us, Voltage Conversion: 107 us, Data Append: 1046 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1039 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1086 us, File Write:                                           59 us, Sleep: 26 us
+ADC Read: 207 us, Voltage Conversion: 108 us, Data Append: 1046 us, File Write:                                           59 us, Sleep: 26 us
+ADC Read: 203 us, Voltage Conversion: 106 us, Data Append: 1044 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 203 us, Voltage Conversion: 106 us, Data Append: 1051 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1047 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 203 us, Voltage Conversion: 106 us, Data Append: 1043 us, File Write:                                           58 us, Sleep: 26 us
+ADC Read: 203 us, Voltage Conversion: 106 us, Data Append: 1050 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 203 us, Voltage Conversion: 105 us, Data Append: 1083 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1047 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 285 us, Voltage Conversion: 107 us, Data Append: 1051 us, File Write:                                           58 us, Sleep: 26 us
+ADC Read: 202 us, Voltage Conversion: 107 us, Data Append: 1044 us, File Write:                                           59 us, Sleep: 26 us
+ADC Read: 203 us, Voltage Conversion: 106 us, Data Append: 1197 us, File Write:                                           60 us, Sleep: 27 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1045 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 203 us, Voltage Conversion: 107 us, Data Append: 1036 us, File Write:                                           59 us, Sleep: 26 us
+ADC Read: 202 us, Voltage Conversion: 107 us, Data Append: 1044 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 203 us, Voltage Conversion: 106 us, Data Append: 1075 us, File Write:                                           59 us, Sleep: 26 us
+ADC Read: 202 us, Voltage Conversion: 106 us, Data Append: 1049 us, File Write:                                           58 us, Sleep: 27 us
+ADC Read: 209 us, Voltage Conversion: 108 us, Data Append: 1067 us, File Write:                                           58 us, Sleep: 27 us
+Final Data Write: 95627 us
